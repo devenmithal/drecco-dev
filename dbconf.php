@@ -1,12 +1,12 @@
 <?php
 //DATABASE CONNECTION VARIABLES
-$host = "warehouse.cims.nyu.edu"; // Host name
+$host = "127.0.0.1"; // Host name
 //$username = "by653"; // Mysql username
 //$password = "adba2"; // Mysql password
 //$db_name = "by653_adba2"; // Database name
-$username = "mfo254";
-$password = "db_pswd";
-$db_name = "mfo254_drecco";
+$username = "root";
+$password = "splendid99D#";
+$db_name = "dkm325_drecco";
 
 
 //DO NOT CHANGE BELOW THIS LINE UNLESS YOU CHANGE THE NAMES OF THE MEMBERS AND LOGINATTEMPTS TABLES

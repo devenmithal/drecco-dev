@@ -35,7 +35,7 @@ var leftTorque = 0;
 var rightTorque = 0;
 
 function draw() {
-    background(220);
+    background(51);
     fill(255);
     //rect(20, 200, width-40, 20);
     if(inGame) {

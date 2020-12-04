@@ -25,7 +25,7 @@
         <?php include $base."leftMenuGame.php"; ?>
     </nav>
     <article>
-        <h1 id="gameName">Dig That</h1>
+        <h1 id="gameName">Dig This</h1>
         <h3 id="groupName">Team WA</h3>
         <h3>Instruction:</h3>
         <div id="gameDesc" class="jumbotron">
@@ -66,12 +66,12 @@
         <form id="gameSettings" class="well">
             <h3> If you want to play in a separate window, press popup </h3>
         </form>
-        <iframe src="games/DigThat/iframe.html" class="game" width="900" height="1200"></iframe>
+        <iframe src="iframe.html" class="game" width="900" height="1200"></iframe>
     </article>
     <?php include $base."footer.php"; ?>
 </div>
 <script type="text/javascript">
-    newWindowBtn(800,800,"games/DigThat/iframe.html", ['textBoxDemo', 'btnDemo', 'selectDemo']);
+    newWindowBtn(800,800,"iframe.html", ['textBoxDemo', 'btnDemo', 'selectDemo']);
 </script>
 </body>
 </html>
